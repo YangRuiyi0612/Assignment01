@@ -81,3 +81,4 @@ which.min(Total_solutions)
 Total_solutions[which.min(Total_solutions)]
 plot(seq(1,100,1),Total_solutions,type="o",xlab="number",ylab="solutions")
 
+#good work
