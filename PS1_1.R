@@ -25,7 +25,10 @@ Print_value <- function(a,b,c){
       }
     }  
 }
-
+# annotation 
+# use "?paste" in console to master the usage of this function
+# "paste" will turn the result into character
+# use "c()" being more appropriate, or you should turn the output result into what you just input
 random_values <- c(rnorm(3,mean=0,sd=4))
 a <- random_values[1]
 b <- random_values[2]
