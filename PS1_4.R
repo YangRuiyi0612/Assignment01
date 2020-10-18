@@ -13,6 +13,10 @@ Least_moves <- function(n){
     }
     else{
     step=1+min(Least_moves(n-1),Least_moves(n/2))
+        # I don`t think this method should be use, not to mention being recommending
+        # self-called function is very dangerous for complex computing
+        # try calculating Least_moves(666) with your code, it doesn`t work
+        # there much more useful method for this condition like  "while(true)...break"
     return(step)
      }
   }
